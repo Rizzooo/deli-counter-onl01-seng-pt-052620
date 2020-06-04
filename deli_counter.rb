@@ -21,4 +21,5 @@ def take_a_number(katz_deli, name)
     puts "Welcome, " + name + ". You are number #{last_in_line} in line."
 end
 
-def 
+def now_serving(katz_deli)
+  
