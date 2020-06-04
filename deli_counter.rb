@@ -16,7 +16,6 @@ end
 
 def take_a_number(katz_deli, name)
     katz_deli.push(name)
-  
-    indexplusone = index + 1 
+    
     puts "Welcome, " + name.join("") + ". You are number #{indexplusone} in line."
  end
