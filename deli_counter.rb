@@ -17,5 +17,5 @@ end
 def take_a_number(katz_deli, name)
     katz_deli.push(name)
     
-    puts "Welcome, " + name.join("") + ". You are number" katz_deli.slice(1) "in line."
+    puts "Welcome, " + name.join("") + ". You are number" katz_deli.slice(1) + "in line."
  end
