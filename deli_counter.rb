@@ -23,8 +23,10 @@ end
 
 def now_serving(katz_deli)
   statement = "Now serving number: "
+  katz_deli.first = first_in_line
   if katz_deli.empty?
     puts "There is nobody waiting to be served."
   else
-    katz_deli.first
+    puts statement + #{first_in_line}
+    
   
