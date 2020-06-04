@@ -16,8 +16,7 @@ end
 
 def take_a_number(katz_deli, name)
     katz_deli.push(name)
-  end
-  katz_deli.first do |index|
+  
     indexplusone = index + 1 
     puts "Welcome, " + name.join("") + ". You are number #{indexplusone} in line."
   end
