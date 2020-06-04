@@ -15,7 +15,8 @@ end
 end
 
 def take_a_number(katz_deli, name)
-  katz_deli.push(name)
+  if katz_deli.empty?
+    katz_deli.push(name)
   
   katz_deli.each_with_index do |index|
     indexplusone = index + 1 
