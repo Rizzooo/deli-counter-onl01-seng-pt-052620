@@ -16,7 +16,7 @@ end
 
 def take_a_number(katz_deli, name)
     katz_deli.push(name)
-    katz_deli.length = 
+    last_in_line = katz_deli.length
     
-    puts "Welcome, " + name + ". You are number" + katz_deli.length + "in line."
+    puts "Welcome, " + name + ". You are number" + last_in_line + "in line."
  end
